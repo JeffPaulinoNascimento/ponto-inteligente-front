@@ -7,6 +7,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material';
 import {LoginModule} from './autenticacao/login/login.module';
 import {LoginRoutingModule} from './autenticacao/login/login-routing.module';
+import {CadastroPjModule} from './autenticacao/cadastro-pj/cadastro-pj.module';
+import {CadastroPjRoutingModule} from './autenticacao/cadastro-pj/cadastro-pj-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import {LoginRoutingModule} from './autenticacao/login/login-routing.module';
     MatButtonModule,
     LoginModule,
     LoginRoutingModule,
+    CadastroPjModule,
+    CadastroPjRoutingModule,
     AppRoutingModule
   ],
   providers: [],
